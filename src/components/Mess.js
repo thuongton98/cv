@@ -10,7 +10,7 @@ const Contact = props => (
       <td>{props.contacts.title}</td>
       <td>{props.contacts.comment}</td>
       <td>
-      <Link to={"/edit/"+props.contacts._id}>edit</Link> | <a href="/" onClick={() => { props.deleteContact(props.contacts._id) }}>delete</a>
+      <Link to={"/edit/"+props.contacts._id}>edit</Link> | <a href="/#" onClick={() => { props.deleteContact(props.contacts._id) }}>delete</a>
       </td>
     </tr>
   )
