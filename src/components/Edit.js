@@ -79,7 +79,7 @@ class edit extends Component {
           axios.post('https://thuong-cv.herokuapp.com/contact/update/' + this.props.match.params.id, contact)
           .then(res => console.log(res.data));
     
-        window.location = '/';
+        window.location = '/mess';
       }
     
       render() {
