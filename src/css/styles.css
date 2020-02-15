@@ -1,0 +1,155 @@
+.chon{
+  color: white!important;
+}
+.ml-auto {
+  left: auto !important;
+  right: 0px;
+}
+.text-style{
+    font-size: small;
+    font-weight: 100;
+    width: 70%;
+    margin: 0 auto;
+    background: rgba(36, 33, 33,0.5);
+    color: white;
+  }
+  .text-style h1{
+    font-size: 50px;
+    font-weight: 100;
+  }
+  .lo{
+      
+      background-image: url("/images/background.png");
+    padding-top: 50px;
+    padding-bottom: 50px;
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+    .fab {
+      
+      margin: 5px;
+      text-align: center;
+    }
+    
+    a .fab {
+      color: white;
+    }
+    a .fab:hover{
+        color: royalblue;
+        text-decoration: none;
+    }
+  
+    .course{
+        display: flex;
+    
+        
+    }
+    .course .title {
+      color: #509e98;
+      -ms-flex: 0 0 33.3%;
+      flex: 0 0 33.3%;
+      max-width: 33%;
+    }
+    
+    .course .descrition {
+      -ms-flex: 0 0 66.6%;
+      flex: 0 0 66.6%;
+      max-width: 66.6%;
+    }
+    
+    .course .descrition p {
+      padding-left: 1em;
+    }
+    .course .left {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    
+    .course .right {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  
+    span{
+      color: slategrey;
+    }
+  
+    .hidden{
+      display: none;
+    }
+    input.hidden{
+      display: none;
+    }
+  
+  
+    .card-custom{
+      width: 60%;
+      margin: 0 auto;
+    }
+  
+  /*mobile*/
+  /*nho*/
+  @media (max-width:445px){
+    h1{
+      font-size: 50px!important;
+    }
+    .text-style h1{
+      font-size: 30px!important;
+      font-weight:100;
+    }
+    .text-style p{
+      font-size: 17px!important;
+      font-weight:100;
+    }
+    .card-custom h1{
+      font-size: 30px!important;
+      font-weight:100;
+    }
+    .card-custom p{
+      font-size: 17px!important;
+      font-weight:100;
+    }
+   
+  }
+    @media (max-width:576px){
+      .jumbotron{
+        margin-top: 50px!important;
+      }
+      .text-style{
+    
+    
+    width: 90%;
+      }
+      
+    }
+  
+    /*to*/
+  @media (max-width:768px){
+    .text-style{
+      
+  width: 90%;
+    }
+    .card-custom{
+      width: 90%;
+    }
+  
+  }
+  
+  @media (max-width:992px){
+    
+  }
+  @media (max-width:1200px){
+    
+  }
+
+ 
