@@ -10,7 +10,7 @@ const Contact = props => (
       <td>{props.contacts.title}</td>
       <td>{props.contacts.comment}</td>
       <td>
-      <Link to={"/edit/"+props.contacts._id}>edit</Link> | <a href="/#" onClick={() => { props.deleteContact(props.contacts._id) }}>delete</a>
+      <Link class="btn btn-default" to={"/edit/"+props.contacts._id}>edit</Link> | <button class="btn btn-default" onClick={() => { props.deleteContact(props.contacts._id) }}>delete</button>
       </td>
     </tr>
   )
@@ -22,15 +22,6 @@ export default class Mess extends Component {
     
         this.state = {contacts: []};
       }
-      //delete mac dinh
-      deleteContact(id) {
-        axios.delete('https://thuong-cv.herokuapp.com/contact'+id)
-          .then(response => { console.log(response.data)});
-    
-        this.setState({
-          contacts: this.state.contacts.filter(el => el._id !== id)
-        })
-      }
       //lay du lieu
       componentDidMount() {
         axios.get('https://thuong-cv.herokuapp.com/contact')
@@ -40,10 +31,20 @@ export default class Mess extends Component {
           .catch((error) => {
             console.log(error);
           })
-      }//dua vo ham khai bao tren de xuat ra
+      }
+      //delete mac dinh
+      deleteContact(id) {
+        axios.delete('https://thuong-cv.herokuapp.com/contact/'+id)
+          .then(response => { console.log(response.data)});
+    
+        this.setState({
+          contacts: this.state.contacts.filter(el => el._id !== id)
+        })
+      }
+      //dua vo ham khai bao tren de xuat ra
       contactList() {
         return this.state.contacts.map(currentcontact => {
-          return <Contact contacts={currentcontact} deletecontact={this.deletecontact} key={currentcontact._id}/>;
+          return <Contact contacts={currentcontact} deleteContact={this.deleteContact} key={currentcontact._id}/>;
         })
       }
     render() {
