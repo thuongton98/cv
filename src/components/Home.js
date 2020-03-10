@@ -44,7 +44,7 @@ export default class Home extends Component {
           </article>
         </section>
         <br />
-        <hr className="container" />
+        <hr></hr>
         <br />
         <section className="container">
           <h5>EDUCATION</h5>
@@ -54,7 +54,7 @@ export default class Home extends Component {
           <p>Tốt nghiệp</p>
         </section>
         <br />
-        <hr className="container" />
+        <hr></hr>
         <br />
         <section className="container">
           <h5>Skill</h5>
@@ -79,7 +79,7 @@ export default class Home extends Component {
           </div>
         </section>
         <br />
-        <hr className="container" />
+        <hr></hr>
         <br />
         <section className="container">
           <h5>EXPERIENCE</h5>

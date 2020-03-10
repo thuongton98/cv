@@ -69,8 +69,8 @@ export default class Contact extends Component {
       }
         return (
             <div className="container ">
-                 <div className="jumbotron text-center " style={{paddingTop: '100px'}}>
-        <h1 className="display-4">This Is Thuong'Contact!!!</h1>
+                 <div className="jumbotron text-center top-pa">
+        <h1 className="display-4 text-center">This Is Thuong'Contact!!!</h1>
         
       </div>
       <form onSubmit={this.onSubmit}>
