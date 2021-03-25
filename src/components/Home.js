@@ -65,13 +65,14 @@ export default class Home extends Component {
               <li>HTML5</li>
               <li>CSS</li>
               <li>JavaScript</li>
-              <li>Nodejs/expressjs</li>
+              <li>Reactjs</li>
               <li>MongoDB</li>
+             
             </div>
             <div className="right">
               <h6>Basic knowledge</h6>
               <li>jQuery</li>
-              <li>Reactjs</li>
+              <li>Nodejs/Expressjs</li>
               <li>Bootstrap</li>
               <li>English not good!</li>
               <li>more!</li>
