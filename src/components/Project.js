@@ -19,6 +19,12 @@ export default class Project extends Component {
               <p className="card-text">
                   Link xem : <a rel='noopener noreferrer' target="_blank" href="https://thuong-contact-demo.herokuapp.com/mess">Conctact</a>
               </p>
+              <p className="card-text">
+                  Code : <a rel='noopener noreferrer' target="_blank" href="https://github.com/thuongton98/thuong-contact-front.git">code front end github</a>
+              </p>
+              <p className="card-text">
+                  Code : <a rel='noopener noreferrer' target="_blank" href="https://github.com/thuongton98/thuong-contact-back.git">code back end github</a>
+              </p>
               <a rel='noopener noreferrer' target="_blank" href="https://thuong-contact-demo.herokuapp.com/" className="btn btn-primary">Go Project</a>
             </div>
           </div>
@@ -40,6 +46,12 @@ export default class Project extends Component {
                 <li>pass: Admin@dmin</li>
                 
               </ul>
+              <p className="card-text">
+                  Code : <a rel='noopener noreferrer' target="_blank" href="https://github.com/thuongton98/shop-front.git">code front end github</a>
+              </p>
+              <p className="card-text">
+                  Code : <a rel='noopener noreferrer' target="_blank" href="https://github.com/thuongton98/shop-back.git">code back end github</a>
+              </p>
               <a rel='noopener noreferrer' target="_blank" href="http://thuongton.net/" className="btn btn-primary">Go Project</a>
             </div>
           </div>
