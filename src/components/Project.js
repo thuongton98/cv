@@ -26,18 +26,18 @@ export default class Project extends Component {
         <div className="col-sm-6">
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">web shop su dung singup & singin basic & authenticated chưa hoàn thành</h5>
+              <h5 className="card-title">web shop: trong quá trình hoàn thành, chỉ hoàn thành đăng nhập, đăng ký, quản trị, người dùng, kiểm tra xác thực bằng mongo để lưu dữ liệu người dùng, lên google cloud nignx, gửi mail, Người bán tạo cửa hàng và tải sản phẩm lên, đang hoàn thiện, người dùng thêm vào giỏ hàng và tìm kiếm sản phẩm , thêm vào giỏ hàng khi chưa đăng nhập, lưu sản phẩm để thêm sau.</h5>
               <p className="card-text">sử dụng mongodb để lưu người dùng</p>
               <p>account user demo:</p>
               <ul className="card-text">
-                <li>usernameemail: thuong1</li>
-                <li>pass: thuong123</li>
+                <li>usernameemail: user</li>
+                <li>pass: User@user</li>
 
               </ul>
               <p>account admin demo:</p>
               <ul className="card-text">
-                <li>usernameemail: thuong1</li>
-                <li>pass: thuong123</li>
+                <li>usernameemail: admin</li>
+                <li>pass: Admin@dmin</li>
                 
               </ul>
               <a rel='noopener noreferrer' target="_blank" href="http://thuongton.net/" className="btn btn-primary">Go Project</a>
